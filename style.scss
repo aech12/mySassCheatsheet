@@ -1,0 +1,19 @@
+%template {
+  background: lightgrey;
+  height: 150px;
+  width: 250px;
+}
+@mixin fn($par) {
+  border: $par;
+}
+
+.m1 {
+  @extend %template;
+}
+
+.m2 {
+  @extend %template;
+  @at-root #{&}__bt-yellow {
+    @include fn(3px solid yellow)
+  }
+}

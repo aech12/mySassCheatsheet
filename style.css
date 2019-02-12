@@ -1,0 +1,11 @@
+.m2, .m1 {
+  background: lightgrey;
+  height: 150px;
+  width: 250px;
+}
+
+.m2__bt-yellow {
+  border: 3px solid yellow;
+}
+
+/*# sourceMappingURL=style.css.map */
